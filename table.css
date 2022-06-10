@@ -1,0 +1,9 @@
+td, th{
+    color:darkblue;
+    padding: 5px;
+    border: 2px solid red;
+    background-color: orange;
+}
+table{
+    border-collapse: collapse;
+}
