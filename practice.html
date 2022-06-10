@@ -7,6 +7,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="table.css">
     <script src="https://kit.fontawesome.com/8ab46263d2.js" crossorigin="anonymous"></script>
+    <style>
+        @keyframes slider {
+            0%{
+                color: brown;
+                top: 0;
+            }
+            50%{
+                color:greenyellow;
+                top: 150px;
+            }
+            100%{
+                color: orange;
+                top:0;
+            }
+        }
+        .fa-brands{
+            width: 500px;
+            height: 300px;
+            background-color: aqua;
+            position: relative;
+            
+        }
+        .fa-instagram-square{
+            font-size: 60px;
+            color: darkmagenta;
+            animation: slider 2s ease 0.2s infinite alternate;
+        }
+    </style>
 </head>
 <body>
     <header>
